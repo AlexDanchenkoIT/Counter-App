@@ -1,0 +1,32 @@
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding-top: 126px;
+}
+
+.counter {
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.btn_add-counter,
+.btn_reset-counter {
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  line-height: 100px;
+  font-size: 32px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn_add-counter {
+  background-color: #4191ff;
+  margin-bottom: 36px;
+}
+
+.btn_reset-counter {
+  background-color: #d45366;
+}
