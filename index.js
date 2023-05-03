@@ -1,19 +1,23 @@
-let buttonAdd = document.querySelector('.btn_add-counter')
-let buttonReset = document.querySelector('.btn_reset-counter')
-let counterText = document.querySelector('.counter')
+let buttonAddCircle = document.getElementById("btn_add-counter")
+let buttonReset = document.getElementById("btn_reset-counter")
+let counterText = document.getElementById("counter")
 
-let counter = 0;
+const COUNTER_INITIAL_CIRCLE = 0;
 
-buttonAdd.addEventListener('click', function() {
-    counter = counter + 1;
+let counter = COUNTER_INITIAL_CIRCLE;
+counterText.innerText = counter;
+
+buttonAddCircle.addEventListener('click', function() {
+    counter++;
 
     counterText.innerText = counter;
 }
 ) 
 
 buttonReset.addEventListener('click', function(){
-    counter = 0;
+    counter = COUNTER_INITIAL_CIRCLE;
 
     counterText.innerText = counter;
-})
+}
+)
 
