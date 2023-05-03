@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Counter App</title>
+
+    <title>Cчетчик</title>
+
+    <link type="image/png" sizes="64x64" rel="icon" href="icons.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="index.css" />
   </head>
@@ -14,9 +24,9 @@
         Мини приложение <br />
         для подсчета кругов
       </p>
-      <p class="counter">0</p>
-      <button class="btn_add-counter">+1 круг</button>
-      <button class="btn_reset-counter">Сбросить</button>
+      <p id="counter" class="counter"></p>
+      <button id="btn_add-counter" class="btn_add-counter">+1 круг</button>
+      <button id="btn_reset-counter" class="btn_reset-counter">Сбросить</button>
     </div>
   </body>
   <script src="index.js"></script>
