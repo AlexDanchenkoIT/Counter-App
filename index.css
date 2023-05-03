@@ -1,5 +1,16 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
 .container {
   margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
   width: 600px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -23,7 +34,6 @@
 .btn_add-counter,
 .btn_reset-counter {
   font-family: inherit;
-  margin: 0 auto;
   display: block;
   width: 500px;
   line-height: 100px;
@@ -36,7 +46,6 @@
 
 .btn_add-counter {
   background-color: #4191ff;
-  margin-bottom: 36px;
 }
 
 .btn_reset-counter {
